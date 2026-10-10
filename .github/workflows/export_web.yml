@@ -7,6 +7,9 @@ on:
 env:
   GODOT_VERSION: 4.7.1
 
+permissions:
+  contents: write
+
 jobs:
   export-html5:
     if: github.repository == 'godotengine/godot-demo-projects'
